@@ -32,23 +32,11 @@
     "PROJECTS": [
       {
         "TITLE": "Money Minder, a FullStack Resource Management Solution",
-        "DESCRIPTION": "A personal finance management application built with Angular, featuring an intuitive user interface, efficient resource management, transaction tracking, reporting, and a PostgreSQL database."
+        "DESCRIPTION": "A personal finance management application built with Angular, featuring an intuitive user interface (powered with Tailwind and ApexCharts), efficient resource management (using store and signals), transaction tracking, reporting, and a PostgreSQL database."
       },
       {
         "TITLE": "Money Minder API",
-        "DESCRIPTION": "A RESTful API built with NestJS and PostgreSQL, providing endpoints for managing resources, categories, and transactions. Developed using software design principles and patterns such as dependency injection, the Singleton pattern, and decorators."
-      },
-      {
-        "TITLE": "Pokémon Explorer: Async API Consumption and Dynamic Filtering",
-        "DESCRIPTION": "Fetches data from API using async/await, with customizable retrieval and a sleek progress bar. Filter Pokémon by type or name for a user-friendly exploration experience."
-      },
-      {
-        "TITLE": "Astro TypeScript Prettier ESLint Configurator",
-        "DESCRIPTION": "A Node.js package for setting up a comprehensive development environment for Astro projects with TypeScript, Prettier, and ESLint. It simplifies the setup process by automating the installation of necessary dependencies and configuration files."
-      },
-      {
-        "TITLE": "PHP CRUD with Administrative Roles and Secure Sessions",
-        "DESCRIPTION": "Integrated database, robust administrative roles, and secure sessions. Allows administrators to print user profiles with role-dependent permissions, enhancing personnel management."
+        "DESCRIPTION": "A RESTful API built with NestJS and PostgreSQL, using Prisma, providing endpoints for managing resources, categories, and transactions. Developed using software design principles and patterns such as dependency injection, the Singleton pattern, and decorators; cached responses, Throttler, oAuth with BetterAuth; unit and e2e tests."
       }
     ],
     "BUTTONS": {

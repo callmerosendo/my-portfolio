@@ -1,13 +1,9 @@
 import { useI18N } from "@c/i18n";
-import Php2 from "@imgs/crud2.webp";
-import MMApiExample from "@imgs/money-minder/api-example.webp";
+import MMAnalysis from "@imgs/money-minder/analysis.webp";
 import MMDashboard from "@imgs/money-minder/dashboard.webp";
-import MMGraphics from "@imgs/money-minder/graphics.webp";
-import NPExampleErros from "@imgs/node-package/example-errors.webp";
-import NPExampleFiles from "@imgs/node-package/files-example.webp";
-import PKXCodeExample from "@imgs/pokedex/code-example.webp";
-import PKXFilterExample from "@imgs/pokedex/filter-example.webp";
-import PKXweb from "@imgs/pokedex/pokedex-web.webp";
+import MMLogin from "@imgs/money-minder/login.webp";
+import MMMain from "@imgs/money-minder/main.webp";
+import MMMobile from "@imgs/money-minder/mobile.webp";
 
 export interface Project {
   title: string;
@@ -25,38 +21,17 @@ export const getProjects = (currentLocale: string): Project[] => {
     const projectLinks = [
       {
         link: "https://money-minder-xi.vercel.app/",
-        github: "https://github.com/Roosendo/money-minder",
-        languages: ["Tailwind", "Angular", "TypeScript"],
+        github: "https://github.com/callmerosendo/money-minder",
+        languages: ["Angular", "Tailwind", "TypeScript"],
       },
       {
         link: "https://money-minder-api.up.railway.app/api/ping",
-        github: "https://github.com/Roosendo/money-minder-api/",
-        languages: ["TypeScript", "SQLite", "NestJS", "Jest"],
-      },
-      {
-        link: "https://rosendo-pokedex.netlify.app/",
-        github: "https://github.com/Roosendo/pokemon-api",
-        languages: ["TypeScript"],
-      },
-      {
-        link: "",
-        github: "https://github.com/Roosendo/astro-ts-prettier-eslint",
-        languages: ["TypeScript"],
-      },
-      {
-        link: "",
-        github: "https://github.com/Roosendo/crud-php",
-        languages: ["PHP", "MySql"],
+        github: "https://github.com/callmerosendo/money-minder-api/",
+        languages: ["Jest", "NestJS", "PostgreSQL", "TypeScript"],
       },
     ];
 
-    const imgs = [
-      [MMDashboard.src, MMApiExample.src, MMGraphics.src],
-      [],
-      [PKXweb.src, PKXFilterExample.src, PKXCodeExample.src],
-      [NPExampleFiles.src, NPExampleErros.src],
-      [Php2.src],
-    ];
+    const imgs = [[MMMain.src, MMLogin.src, MMDashboard.src, MMAnalysis.src, MMMobile.src], []];
 
     return {
       title: project.TITLE,

@@ -32,23 +32,11 @@
     "PROJECTS": [
       {
         "TITLE": "Money Minder, una Solución de Gestión Integral de Recursos FullStack",
-        "DESCRIPTION": "Aplicación de gestión de finanzas hecha con Angular con una interfaz de usuario Intuitiva; gestión de recursos eficiente, registro y reportes con una base de datos PostgreSQL"
+        "DESCRIPTION": "Aplicación de gestión de finanzas hecha con Angular con una interfaz de usuario Intuitiva (con Tailwind y ApexCharts); gestión de recursos eficiente (usando store y signals), registro y reportes con una base de datos PostgreSQL"
       },
       {
         "TITLE": "API RESTful de Money Minder",
-        "DESCRIPTION": "API del proyecto Money Minder utilizando NestJS y PostgreSQL. Provee endpoints para manejar recursos, categorías, transacciones con diferentes prácticas y patrones de diseño como inyección de dependencias, Singleton y decoradores"
-      },
-      {
-        "TITLE": "Explorador de Pokémon: Consumo Asíncrono de API y Filtrado Dinámico",
-        "DESCRIPTION": "Recupera datos de la API mediante async/await, con recuperación personalizada y una elegante barra de progreso. Filtra Pokémon por tipo o nombre para una experiencia de exploración fácil de usar."
-      },
-      {
-        "TITLE": "Configurador de Astro TypeScript Prettier ESLint",
-        "DESCRIPTION": "Un paquete de Node.js para configurar un entorno de desarrollo completo para proyectos de Astro con TypeScript, Prettier y ESLint. Simplifica el proceso de configuración automatizando la instalación de las dependencias necesarias y los archivos de configuración."
-      },
-      {
-        "TITLE": "CRUD en PHP con Roles Administrativos y Sesiones Seguras",
-        "DESCRIPTION": "Integración de base de datos, roles administrativos robustos y sesiones seguras. Permite a los administradores imprimir perfiles de usuario con permisos dependientes del rol, mejorando la gestión de personal."
+        "DESCRIPTION": "API del proyecto Money Minder utilizando NestJS y PostgreSQL usando Prisma. Provee endpoints para manejar recursos, categorías, transacciones con diferentes prácticas y patrones de diseño como inyección de dependencias, Singleton y decoradores; respuestas cacheadas, oAuth con BetterAuth; pruebas unitarias y e2e"
       }
     ],
     "BUTTONS": {

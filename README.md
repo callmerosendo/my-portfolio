@@ -25,7 +25,7 @@ Personal portfolio showcasing my projects, skills, work experience, and certific
 Requires Node.js and [pnpm](https://pnpm.io).
 
 ```bash
-git clone https://github.com/Roosendo/<repo-name>.git
+git clone https://github.com/callmerosendo/<repo-name>.git
 cd <repo-name>
 pnpm install
 pnpm dev
@@ -56,6 +56,6 @@ The site runs at `http://localhost:4321`.
 
 - Email: rosendo.garcia73@outlook.com
 - [LinkedIn](https://www.linkedin.com/in/rosendoo-garcia)
-- [GitHub](https://github.com/Roosendo)
+- [GitHub](https://github.com/callmerosendo)
 
 [See License](./LICENSE.md) for license information.

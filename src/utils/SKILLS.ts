@@ -9,6 +9,7 @@ import MySql from "@icons/skills/MySql.astro";
 import NestJS from "@icons_s/NestJS.astro";
 import Node from "@icons_s/Node.astro";
 import PHP from "@icons_s/PHP.astro";
+import PostgreSql from "@icons_s/PostgreSQL.astro";
 import React from "@icons_s/React.astro";
 import SQLite from "@icons/skills/SQLite.astro";
 import Tailwind from "@icons_s/Tailwind.astro";
@@ -21,17 +22,18 @@ interface Skill {
 }
 
 export const SKILLS: Skill[] = [
-  { name: ".NET", icon: DotNet, featured: true },
+  { name: ".NET", icon: DotNet },
   { name: "Angular", icon: Angular, featured: true },
-  { name: "Astro", icon: AstroIcon },
-  { name: "Express", icon: Express, featured: true },
+  { name: "Astro", icon: AstroIcon, featured: true },
+  { name: "Express", icon: Express },
   { name: "Go", icon: Go },
   { name: "JavaScript", icon: JavaScript },
   { name: "Jest", icon: Jest },
   { name: "MySql", icon: MySql },
-  { name: "NestJS", icon: NestJS },
+  { name: "NestJS", icon: NestJS, featured: true },
   { name: "Node", icon: Node },
   { name: "PHP", icon: PHP },
+  { name: "PostgreSQL", icon: PostgreSql },
   { name: "React", icon: React },
   { name: "SQLite", icon: SQLite },
   { name: "Tailwind", icon: Tailwind },
