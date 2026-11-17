@@ -25,28 +25,13 @@ export const getProjects = (currentLocale: string): Project[] => {
     const projectLinks = [
       {
         link: "https://money-minder-xi.vercel.app/",
-        github: "https://github.com/Roosendo/money-minder",
-        languages: ["Tailwind", "Angular", "TypeScript"],
+        github: "https://github.com/callmerosendo/money-minder",
+        languages: ["Angular", "Tailwind", "TypeScript"],
       },
       {
         link: "https://money-minder-api.up.railway.app/api/ping",
-        github: "https://github.com/Roosendo/money-minder-api/",
-        languages: ["TypeScript", "SQLite", "NestJS", "Jest"],
-      },
-      {
-        link: "https://rosendo-pokedex.netlify.app/",
-        github: "https://github.com/Roosendo/pokemon-api",
-        languages: ["TypeScript"],
-      },
-      {
-        link: "",
-        github: "https://github.com/Roosendo/astro-ts-prettier-eslint",
-        languages: ["TypeScript"],
-      },
-      {
-        link: "",
-        github: "https://github.com/Roosendo/crud-php",
-        languages: ["PHP", "MySql"],
+        github: "https://github.com/callmerosendo/money-minder-api/",
+        languages: ["Jest", "NestJS", "PostgreSQL", "TypeScript"],
       },
     ];
 
